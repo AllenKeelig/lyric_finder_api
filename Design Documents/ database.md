@@ -1,10 +1,3 @@
-
----
-
-## 🧠 3. `database.md`
-
-You can include a UML diagram if you'd like (draw.io, dbdiagram.io, etc.) or just describe it like this:
-
 ```markdown
 # Database Schema
 
@@ -13,9 +6,7 @@ You can include a UML diagram if you'd like (draw.io, dbdiagram.io, etc.) or jus
 ### lyrics
 - `id` (int, primary key)
 - `title` (varchar)
-- `artist` (varchar)
 - `lyrics` (text)
-- `source_url` (varchar)
 - `last_fetched` (datetime)
 
 ### Example Flow
